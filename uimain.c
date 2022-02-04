@@ -29,6 +29,11 @@ int main()
       for (char c = 'A'; c < 'D'; c++)
 	print_char_11x16(c);
       break;
+    case 'f':
+      puts("You selected chars small font:");
+      for (char c = 'A'; c < 'G'; c++)
+	print_char_5x7(c);
+      break;
     case 'q':
       puts("Bye!");
       goto done;
